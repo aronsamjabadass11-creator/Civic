@@ -1,0 +1,6 @@
+{
+  "name": "Civic Portal",
+  "description": "Municipal civic utility platform for reporting, auto-routing, and tracking local civic issues with accessibility and multilingual support.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

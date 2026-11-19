@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --color-ink: #1C2B39;
+  --color-municipal: #2F5D8A;
+  --color-municipal-hover: #24496D;
+  --color-amber-signal: #E2A63B;
+  --color-paper: #F7F5F0;
+  --color-slate-civic: #6B7280;
+  --color-success-civic: #3F7D58;
+}
+
+body {
+  font-family: 'Public Sans', system-ui, -apple-system, sans-serif;
+  color: #1C2B39;
+  background-color: #F7F5F0;
+}
+
+.ticket-mono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Accessibility: Large Text / Senior Mode */
+body.accessible-mode {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+body.accessible-mode input,
+body.accessible-mode textarea,
+body.accessible-mode button,
+body.accessible-mode select {
+  font-size: 1.125rem !important;
+  min-height: 52px;
+}
+
+/* Custom leaflet marker styling */
+.custom-civic-pin {
+  background: transparent;
+  border: none;
+}
